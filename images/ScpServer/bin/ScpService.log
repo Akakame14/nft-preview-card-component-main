@@ -21,3 +21,4 @@
 2022-01-06 16:18:15.294 ++ Notify [Removal] [{E2824A09-DBAA-4407-85CA-C8E8FF5F6FFA}] [\\?\USB#VID_054C&PID_0268#6&27D9BAD0&0&11#{E2824A09-DBAA-4407-85CA-C8E8FF5F6FFA}]
 2022-01-06 16:18:15.295 -- Device Removal [00:26:43:9B:0E:A9]
 2022-01-06 16:18:15.295 -- USB Device : HID_Worker_Thread Exiting
+2022-01-06 20:30:37.346 ## Mapper.Initialize() - Profiles [5] Active [Default] Mappings [0]
