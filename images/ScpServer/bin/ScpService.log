@@ -1,0 +1,23 @@
+2022-01-06 14:21:03.819 ++ C:\Users\akaka\Desktop\nft-preview-card-component-main\nft-preview-card-component-main\images\ScpServer\bin\ScpService.exe 1.2.0.160
+2022-01-06 14:21:03.823 ++ C:\Users\akaka\Desktop\nft-preview-card-component-main\nft-preview-card-component-main\images\ScpServer\bin\ScpControl.dll 1.2.0.160
+2022-01-06 14:21:03.887 ++ Microsoft Windows 10 Home Single Language (6.2.9200.0 AMD64)
+2022-01-06 14:21:03.889 -- Bus Open   : Offset 0
+2022-01-06 14:21:03.893 -- Bus Open   : Path \\?\ROOT#SYSTEM#0001#{F679F562-3164-42CE-A4DB-E7DDBE723909}
+2022-01-06 14:21:03.925 ## Mapper.Initialize() - Profiles [5] Active [Default] Mappings [0]
+2022-01-06 14:21:03.966 -- Bus Plugin : Serial 1
+2022-01-06 14:21:03.966 ++ Plugin Port #1 for [00:26:43:9B:0E:A9]
+2022-01-06 14:21:03.981 -- USB Device : HID_Worker_Thread Starting
+2022-01-06 14:21:03.999 -- Started Device Instance [USB\VID_054C&PID_0268\6&27D9BAD0&0&11] Local [00:26:43:9B:0E:A9] Remote [44:D8:32:AB:78:B4]
+2022-01-06 14:21:04.007 -- Controller : UDP_Worker_Thread Starting
+2022-01-06 14:39:42.042 ++ Notify [Removal] [{E2824A09-DBAA-4407-85CA-C8E8FF5F6FFA}] [\\?\USB#VID_054C&PID_0268#6&27D9BAD0&0&11#{E2824A09-DBAA-4407-85CA-C8E8FF5F6FFA}]
+2022-01-06 14:39:42.042 -- Device Removal [00:26:43:9B:0E:A9]
+2022-01-06 14:39:42.043 -- USB Device : HID_Worker_Thread Exiting
+2022-01-06 14:39:43.183 ++ Notify [Arrival] [{E2824A09-DBAA-4407-85CA-C8E8FF5F6FFA}] [\\?\USB#VID_054C&PID_0268#6&27D9BAD0&0&11#{E2824A09-DBAA-4407-85CA-C8E8FF5F6FFA}]
+2022-01-06 14:39:43.184 -- DS3 Arrival Event
+2022-01-06 14:39:43.364 -- Device Arrival [00:26:43:9B:0E:A9]
+2022-01-06 14:39:43.364 ++ Plugin Port #1 for [00:26:43:9B:0E:A9]
+2022-01-06 14:39:43.428 -- USB Device : HID_Worker_Thread Starting
+2022-01-06 14:39:43.491 -- Started Device Instance [USB\VID_054C&PID_0268\6&27D9BAD0&0&11] Local [00:26:43:9B:0E:A9] Remote [44:D8:32:AB:78:B4]
+2022-01-06 16:18:15.294 ++ Notify [Removal] [{E2824A09-DBAA-4407-85CA-C8E8FF5F6FFA}] [\\?\USB#VID_054C&PID_0268#6&27D9BAD0&0&11#{E2824A09-DBAA-4407-85CA-C8E8FF5F6FFA}]
+2022-01-06 16:18:15.295 -- Device Removal [00:26:43:9B:0E:A9]
+2022-01-06 16:18:15.295 -- USB Device : HID_Worker_Thread Exiting

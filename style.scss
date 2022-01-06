@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+--soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--Very-dark-blue: hsl(217, 54%, 11%);
+--Very-dark-blue2: hsl(216, 50%, 16%);
+--Very-dark-blue: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit;
+}
+.card{
+    width: 400px;
+    height: fit-content;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    .photo{
+        height: fit-content;
+        cursor: pointer;
+        .cardphoto{
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .viewph{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(-405px);
+            width: 400px;
+            height: 400px;
+            border-radius: 10px;
+            position: absolute;
+            opacity: 0;
+            background-color: rgba(0, 255, 255, 0.5);
+        }
+        .cardphoto:hover + .viewph{
+            opacity: 1;
+        }
+        .viewph:hover{
+            opacity: 1;
+        }
+    }
+    .equ{
+        cursor: pointer;
+        font-size: 30px;
+        color: hsl(0, 0%, 100%);
+        margin-block: 25px;
+    }
+    .equ:hover{
+        color: cyan;
+    }
+    .desc{
+        font-weight: 300;
+        font-size: 18px;
+        color: hsl(215, 51%, 70%);
+    }
+    .price-time{
+        display: flex;
+        align-items: center;
+        .ethph{
+            width: 11px;
+            height: 18px;
+        }
+        .ethv{
+            display: inline-block;
+            font-weight: 600;
+            font-size: 18px;
+            color: hsl(178, 100%, 50%);
+            margin-left: 5px;
+        }
+        .clock{
+            margin-left: auto;
+        }
+        .clocktxt{
+            font-size: 18px;
+            font-weight: 400;
+            color: hsl(215, 51%, 70%);
+            display: inline;
+        }
+    }
+    .lower{
+        align-items: center;
+        display: flex;
+        .name{
+            strong{
+                cursor: pointer;
+                color: hsl(0, 0%, 100%);
+            }
+            font-size: 18px;
+            color: hsl(215, 51%, 70%);
+            margin-left: 10px;
+        }
+        .avatar{
+            width: 40px;
+            height: 40px;
+        }
+        strong:hover{
+            color: cyan;
+        }
+    }
+    hr{
+        border: 0;
+        border-top:solid 0.5px;
+        border-color: hsl(215, 51%, 70%);
+        border-radius: 100%;
+    }
+}
+
+@media (max-width: 530px)
+{
+    .card{
+        width: 80%;
+        .photo{
+        .cardphoto{
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .viewph{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform:translateY(-100%);
+            width: 80%;
+            height: auto;
+            aspect-ratio: 1/1;
+            border-radius: 10px;
+            position: absolute;
+            opacity: 0;
+            background-color: rgba(0, 255, 255, 0.5);
+        }
+        .cardphoto:hover + .viewph{
+            opacity: 1;
+        }
+        .viewph:hover{
+            opacity: 1;
+        }
+        }
+    }
+} 
+
+@media (max-width: 440px){
+    .card{
+        .desc{
+            font-weight: 300;
+            font-size: 15px;
+            color: hsl(215, 51%, 70%);
+        }
+    }
+}
